@@ -1,5 +1,13 @@
-export class Hello {
-  public sayHello() {
-    return 'hello, world!';
+import { ConstructLibrary, ConstructLibraryOptions } from "projen/lib/cdk";
+
+export default class CDKTFConstruct extends ConstructLibrary {
+  constructor(options: ConstructLibraryOptions) {
+    super(options);
+
+    const cdktfVersion = "^0.8.3";
+    const constructVersion = "^10.0.12";
+
+    this.addPeerDeps(`constructs@${constructVersion}`, `cdktf@${cdktfVersion}`);
+    this.addKeywords("cdktf");
   }
 }

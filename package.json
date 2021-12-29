@@ -1,5 +1,6 @@
 {
-  "name": "cdktf-construct-base",
+  "name": "@dschmidt/cdktf-construct-base",
+  "description": "A base for my cdktf construct projects",
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
@@ -37,6 +38,9 @@
     "standard-version": "^9",
     "ts-jest": "^27.1.2",
     "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "projen": "^0.46.9"
   },
   "bundledDependencies": [],
   "main": "lib/index.js",
