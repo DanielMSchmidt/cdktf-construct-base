@@ -10,6 +10,7 @@ const project = new typescript.TypeScriptProject({
   devDeps: [
     "ts-node@10.4.0",
     "cdktf@0.8.3",
+    "cdktf-cli@0.8.3",
     "constructs@10.0.12",
     "@cdktf/provider-github@0.5.98",
   ],
