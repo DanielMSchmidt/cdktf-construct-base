@@ -1,5 +1,4 @@
-const { typescript, Task } = require("projen");
-const { TaskWorkflow } = require("projen/lib/github");
+const { typescript } = require("projen");
 const packageJson = require("./package.json");
 const projenVersion = packageJson.devDependencies.projen;
 
@@ -24,6 +23,12 @@ const project = new typescript.TypeScriptProject({
     label: "auto-approve",
     allowedUsernames: ["DanielMSchmidt", "github-bot"],
   },
+});
+
+project.addTask("deploy", {
+  description: "Deploys the secrets via CDKTF across all projects",
+  cwd: "./infrastructure",
+  exec: "cdktf apply --auto-approve --ci infrastructure",
 });
 
 project.synth();

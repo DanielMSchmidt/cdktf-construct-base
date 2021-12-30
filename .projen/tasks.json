@@ -90,6 +90,16 @@
         }
       ]
     },
+    "deploy": {
+      "name": "deploy",
+      "description": "Deploys the secrets via CDKTF across all projects",
+      "steps": [
+        {
+          "exec": "cdktf apply --auto-approve --ci infrastructure"
+        }
+      ],
+      "cwd": "./infrastructure"
+    },
     "eslint": {
       "name": "eslint",
       "description": "Runs eslint against the codebase",
