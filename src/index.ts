@@ -1,6 +1,6 @@
 import { ConstructLibrary, ConstructLibraryOptions } from "projen/lib/cdk";
 
-export default class CDKTFConstruct extends ConstructLibrary {
+export class CDKTFConstruct extends ConstructLibrary {
   constructor(options: ConstructLibraryOptions) {
     super(options);
 
@@ -11,3 +11,5 @@ export default class CDKTFConstruct extends ConstructLibrary {
     this.addKeywords("cdktf");
   }
 }
+
+export default CDKTFConstruct;
