@@ -22,8 +22,9 @@ jobs:
         uses: hashicorp/setup-terraform@v1
         with:
           terraform_version: 1.1.2
-          cli_config_credentials_token: ${{ secrets.TERRAFORM_CLOUD_TOKEN }}
       - name: Install dependencies
         run: yarn install --check-files --frozen-lockfile
       - name: Deploy infrastructure
         run: yarn deploy
+        env:
+          TERRAFORM_CLOUD_TOKEN: ${{ secrets.TERRAFORM_CLOUD_TOKEN }}
