@@ -1,4 +1,5 @@
-const { typescript } = require("projen");
+const { typescript, Task } = require("projen");
+const { TaskWorkflow } = require("projen/lib/github");
 const packageJson = require("./package.json");
 const projenVersion = packageJson.devDependencies.projen;
 
@@ -17,5 +18,12 @@ const project = new typescript.TypeScriptProject({
   packageName: "@dschmidt/cdktf-construct-base",
   release: true,
   releaseToNpm: true,
+  autoApproveUpgrades: true,
+  autoApproveProjenUpgrades: true,
+  autoApproveOptions: {
+    label: "auto-approve",
+    allowedUsernames: ["DanielMSchmidt", "github-bot"],
+  },
 });
+
 project.synth();
