@@ -1,5 +1,5 @@
-import { CDKTFConstruct } from '../src';
+import { CDKTFConstruct } from "../src";
 
-test('CDKTFConstruct is defined', () => {
+test("CDKTFConstruct is defined", () => {
   expect(CDKTFConstruct).toBeDefined();
 });
