@@ -39,14 +39,14 @@
     "jest-junit": "^13",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
-    "projen": "^0.46.9",
+    "projen": "^0.50.9",
     "standard-version": "^9",
     "ts-jest": "^27.1.2",
     "ts-node": "10.4.0",
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "projen": "^0.46.9"
+    "projen": "^0.50.9"
   },
   "bundledDependencies": [],
   "main": "lib/index.js",
