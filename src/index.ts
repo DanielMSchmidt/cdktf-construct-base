@@ -9,6 +9,9 @@ export class CDKTFConstruct extends ConstructLibrary {
 
     this.addPeerDeps(`constructs@${constructVersion}`, `cdktf@${cdktfVersion}`);
     this.addKeywords('cdktf');
+
+    // cleanup dist before test run
+    this.testTask.prependExec('rm -rf dist');
   }
 }
 
