@@ -4,7 +4,7 @@ export class CDKTFConstruct extends ConstructLibrary {
   constructor(options: ConstructLibraryOptions) {
     super(options);
 
-    const cdktfVersion = '^0.8.3';
+    const cdktfVersion = '^0.8.5';
     const constructVersion = '^10.0.12';
 
     this.addPeerDeps(`constructs@${constructVersion}`, `cdktf@${cdktfVersion}`);

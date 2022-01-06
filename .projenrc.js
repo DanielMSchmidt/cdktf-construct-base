@@ -26,6 +26,8 @@ const project = new typescript.TypeScriptProject({
     label: 'auto-approve',
     allowedUsernames: ['DanielMSchmidt', 'github-bot'],
   },
+  license: 'MIT',
+  copyrightOwner: 'Daniel Schmidt',
 });
 
 project.addTask('deploy', {
