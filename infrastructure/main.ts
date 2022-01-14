@@ -15,10 +15,20 @@ class MyStack extends TerraformStack {
       type: "string",
       sensitive: true,
     });
+    const pythonUsername = new TerraformVariable(this, "TWINE_USERNAME", {
+      type: "string",
+      sensitive: true,
+    });
+    const pythonToken = new TerraformVariable(this, "TWINE_PASSWORD", {
+      type: "string",
+      sensitive: true,
+    });
 
     // TODO: WHY?????
     ghToken.overrideLogicalId("github_token");
     npmToken.overrideLogicalId("npm_token");
+    pythonUsername.overrideLogicalId("TWINE_USERNAME");
+    pythonToken.overrideLogicalId("TWINE_PASSWORD");
 
     new gh.GithubProvider(this, "github", {
       token: ghToken.value,
@@ -34,6 +44,18 @@ class MyStack extends TerraformStack {
         secretName: `NPM_TOKEN`,
         repository: repo.name,
         plaintextValue: npmToken.value,
+      });
+
+      // Set the python username and token on each repo
+      new gh.ActionsSecret(this, `${project.name}-python-username`, {
+        secretName: `TWINE_USERNAME`,
+        repository: repo.name,
+        plaintextValue: pythonUsername.value,
+      });
+      new gh.ActionsSecret(this, `${project.name}-python-password`, {
+        secretName: `TWINE_PASSWORD`,
+        repository: repo.name,
+        plaintextValue: pythonToken.value,
       });
     });
   }
