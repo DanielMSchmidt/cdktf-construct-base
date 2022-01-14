@@ -9,11 +9,11 @@ const project = new typescript.TypeScriptProject({
 
   deps: [`projen@${projenVersion}`],
   devDeps: [
-    "ts-node@10.4.0",
-    "cdktf@0.8.3",
-    "cdktf-cli@0.8.3",
-    "constructs@10.0.12",
-    "@cdktf/provider-github@0.5.98",
+    "ts-node",
+    "cdktf",
+    "cdktf-cli",
+    "constructs",
+    "@cdktf/provider-github",
   ],
   description: "A base for my cdktf construct projects",
   packageName: "@dschmidt/cdktf-construct-base",
