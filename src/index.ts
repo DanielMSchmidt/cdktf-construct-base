@@ -5,6 +5,12 @@ export class CDKTFConstruct extends ConstructLibrary {
     super({
       ...options,
       prettier: true,
+      autoApproveOptions: {
+        allowedUsernames: ["DanielMSchmidt"],
+        label: "auto-approve",
+      },
+      autoApproveProjenUpgrades: true,
+      autoApproveUpgrades: true,
       publishToPypi: {
         distName: options.name,
         module: options.name.replace(/-/g, "_"),
