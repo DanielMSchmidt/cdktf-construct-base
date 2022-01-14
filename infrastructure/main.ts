@@ -39,6 +39,13 @@ class MyStack extends TerraformStack {
         name: project.name,
       });
 
+      // Set the github token on each repo
+      new gh.ActionsSecret(this, `${project.name}-npm`, {
+        secretName: `GITHUB_TOKEN`,
+        repository: repo.name,
+        plaintextValue: ghToken.value,
+      });
+
       // Set the npm token on each repo
       new gh.ActionsSecret(this, `${project.name}-npm`, {
         secretName: `NPM_TOKEN`,
