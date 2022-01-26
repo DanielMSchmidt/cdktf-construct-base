@@ -1,13 +1,12 @@
 const { typescript } = require("projen");
 const { NpmAccess } = require("projen/lib/javascript");
 const packageJson = require("./package.json");
-const projenVersion = packageJson.devDependencies.projen;
 
 const project = new typescript.TypeScriptProject({
   defaultReleaseBranch: "main",
   name: "cdktf-construct-base",
 
-  deps: [`projen@${projenVersion}`],
+  deps: [`projen`],
   devDeps: [
     "ts-node",
     "cdktf",
