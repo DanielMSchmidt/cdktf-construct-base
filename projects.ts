@@ -5,4 +5,5 @@ export const projects: Project[] = [
   { name: "cdktf-local-exec" },
   { name: "cdktf-local-build" },
   { name: "cdktf-cdk8s" },
+  { name: "cdktf-multi-stack-tfe" },
 ];
