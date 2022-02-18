@@ -24,14 +24,14 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@cdktf/provider-github": "0.6.25",
+    "@cdktf/provider-github": "0.6.26",
     "@types/jest": "^27.4.0",
     "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "cdktf": "0.9.1",
     "cdktf-cli": "0.9.1",
-    "constructs": "10.0.64",
+    "constructs": "10.0.65",
     "eslint": "^8",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.6",
