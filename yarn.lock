@@ -331,10 +331,10 @@
     is-valid-domain "^0.1.5"
     jsii-srcmak "^0.1.482"
 
-"@cdktf/provider-github@0.6.33":
-  version "0.6.33"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.6.33.tgz#762b09a9acc0559bd1865ac731a0bd56add1b13c"
-  integrity sha512-q47Mq+lNN6Ji8jhAWBvvZWrtQducwyOzkmjTKc645pwgF0RukRWFp/6JbpZ59lb1lhMLVFMzp8i3WTLFm1U10w==
+"@cdktf/provider-github@0.6.34":
+  version "0.6.34"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.6.34.tgz#28934b0dfb408baeb9ee7cbd0f8cd6cc2a136ed7"
+  integrity sha512-7lglsUkxEmg4G4SPG9WzMcgHj2WRbekLVeeVJ+QZBr4va5IYxa601VVLt/vJSK8FuT4vqEkP+z6fihVkAhPysw==
 
 "@cspotcode/source-map-consumer@0.8.0":
   version "0.8.0"
@@ -1736,10 +1736,10 @@ console-control-strings@^1.1.0:
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-constructs@10.0.72, constructs@^10.0.25:
-  version "10.0.72"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.72.tgz#052b7d7c578eefcf776df0d2da04697179bb4860"
-  integrity sha512-fwm4pJTEbA2CKoCdtEFfdekW+2BH7D5l3YaZACH3dCRv08F2k9oiL7aTFnecbc+LN5PtKouDfPThysjvO34mag==
+constructs@10.0.73, constructs@^10.0.25:
+  version "10.0.73"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.73.tgz#1279267ee281c7a9facb2df377fe587c697df562"
+  integrity sha512-LFZayHj5o8SIjCd1O7fL3W+PkYjyB5YJo2mStPz+nIipGB78smhEklzm6Xx4ZGQ1QmSpvI1lTiepgZPBn+GP3w==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -4026,9 +4026,9 @@ jsii-rosetta@^1.54.0:
     yargs "^16.2.0"
 
 jsii-srcmak@^0.1.482:
-  version "0.1.486"
-  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.486.tgz#2a97bc6e8af0ee1459d0b2f943a5cbc0f70b686c"
-  integrity sha512-xOzidBabMnxm3BXkMu2j86TUnx7a9ygtbq/cxWUTgLMan3ernbXLETiZ53lJay2WRRhwPvrzM74ikWIXu+eIOw==
+  version "0.1.487"
+  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.487.tgz#71b17b3a42471b86efa98078e5a27b4c9838a576"
+  integrity sha512-LhpoNCPWkgnDu7PvWJf4eNYqJJ/8oPbDp/9fDAIRV/pQEhwq9Yy9FQOWOdfgJQi0Zfdfx4WK5/Zh8XWxlVm29Q==
   dependencies:
     fs-extra "^9.1.0"
     jsii "^1.54.0"
@@ -6129,9 +6129,9 @@ typescript@~3.9.10:
   integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
 uglify-js@^3.1.4:
-  version "3.15.1"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.15.1.tgz#9403dc6fa5695a6172a91bc983ea39f0f7c9086d"
-  integrity sha512-FAGKF12fWdkpvNJZENacOH0e/83eG6JyVQyanIJaBXCN1J11TUQv1T1/z8S+Z0CG0ZPk1nPcreF/c7lrTd0TEQ==
+  version "3.15.2"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.15.2.tgz#1ed2c976f448063b1f87adb68c741be79959f951"
+  integrity sha512-peeoTk3hSwYdoc9nrdiEJk+gx1ALCtTjdYuKSXMTDqq7n1W7dHPqWDdSi+BPL0ni2YMeHD7hKUSdbj3TZauY2A==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
