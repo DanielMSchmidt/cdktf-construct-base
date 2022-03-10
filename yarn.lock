@@ -331,10 +331,10 @@
     is-valid-domain "^0.1.5"
     jsii-srcmak "^0.1.482"
 
-"@cdktf/provider-github@0.6.44":
-  version "0.6.44"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.6.44.tgz#40c7d94c53822393aa76246588034d87d3017a82"
-  integrity sha512-gdTR1YoCPm0B8CmDL9D24zW0WyBjQODlNgAYZ+T075dnUj7hhByYWT4GHe5h6WVr01OvFdpOmIiC4MzNjDiAxA==
+"@cdktf/provider-github@0.6.45":
+  version "0.6.45"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.6.45.tgz#0123c06019a8fb0b82d1565528ef473d06f91d8e"
+  integrity sha512-x9cQGHpR3uZUe+k5WxcW9jay2UvBCXwTMS52BNFHZjoirQd7nCekaeOAvz5ULl+qLHKVpCnoIBnZPatKrQL57A==
 
 "@cspotcode/source-map-consumer@0.8.0":
   version "0.8.0"
@@ -2199,9 +2199,9 @@ duplexer3@^0.1.4:
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
 electron-to-chromium@^1.4.76:
-  version "1.4.77"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.77.tgz#c26e454cb8721d4ebdae3e276c57cd32e51c32ed"
-  integrity sha512-fiDxw8mO9Ph1Z0bjX2sFTPpi0J0QkOiwOJF+5Q0J0baNc/F9lLePAvDPlnoxvbUYYMizqrKPeotRRkJ9LtxAew==
+  version "1.4.79"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.79.tgz#02b504e1e6039b2e61edfc5f856895a0927925f5"
+  integrity sha512-nWfAxof87mGHkbORCwVRPst4FlSVdprOKS6dBMrcwn3sjwf8iHXEhsu1+FU5Psd7Ps3KKeBufAdfsPK5BmbSUg==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -4026,9 +4026,9 @@ jsii-rosetta@^1.54.0:
     yargs "^16.2.0"
 
 jsii-srcmak@^0.1.482:
-  version "0.1.496"
-  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.496.tgz#322bdf19b678a020bb721f472281db185849cc1c"
-  integrity sha512-IZkAByl31vr1Zss3mq2tvBmmXsT1XZev5+ypxo+fL9mdwKnQ3Z54RBLHsOlyBvU4q+lyRii9VWVylpdf0vgDaQ==
+  version "0.1.497"
+  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.497.tgz#a7c9d2e6ca4ee176950945b1d804ecc008b418e6"
+  integrity sha512-CWRdTmBGQeI7aYr3WQ1aOGVemoVfwaUvggB01VdC6Z0AJ+CHlzU4qVqvJzLJnu/mU9KGeO42QTBxYWSmSJ1bKA==
   dependencies:
     fs-extra "^9.1.0"
     jsii "^1.54.0"
@@ -4334,9 +4334,9 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lru-cache@^7.3.1, lru-cache@^7.4.1:
-  version "7.4.1"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.4.1.tgz#afe07e885ef0cd5bf99f62f4fa7545d48746d779"
-  integrity sha512-NCD7/WRlFmADccuHjsRUYqdluYBr//n/O0fesCb/n52FoGcgKh8o4Dpm7YIbZwVcDs8rPBQbCZLmWWsp6m+xGQ==
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.4.2.tgz#92f7b5afe82759f51b216a96fae3bc1828df9712"
+  integrity sha512-Xs3+hFPDSKQmL05Gs6NhvAADol1u9TmLoNoE03ZjszX6a5iYIO3rPUM4jIjoBUJeTaWEBMozjjmV70gvdRfIdw==
 
 make-dir@^3.0.0:
   version "3.1.0"
