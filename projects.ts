@@ -1,4 +1,4 @@
-export type Project = { name: string };
+export type Project = { name: string; shareWithUsers?: string[] };
 
 export const projects: Project[] = [
   { name: "cdktf-construct-base" },
@@ -6,5 +6,8 @@ export const projects: Project[] = [
   { name: "cdktf-local-build" },
   { name: "cdktf-cdk8s" },
   { name: "cdktf-multi-stack-tfe" },
-  { name: "cdktf-tf-module-stack" },
+  {
+    name: "cdktf-tf-module-stack",
+    shareWithUsers: ["ansgarm", "skorfmann", "xiehan", "schersh"],
+  },
 ];

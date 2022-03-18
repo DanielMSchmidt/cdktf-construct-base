@@ -64,6 +64,19 @@ class MyStack extends TerraformStack {
         repository: repo.name,
         plaintextValue: pythonToken.value,
       });
+
+      // Share the repo with the specified users
+      (project.shareWithUsers || []).forEach((username) => {
+        new gh.RepositoryCollaborator(
+          this,
+          `${project.name}-collaborator-${username}`,
+          {
+            repository: repo.name,
+            username,
+            permission: "push",
+          }
+        );
+      });
     });
   }
 }
