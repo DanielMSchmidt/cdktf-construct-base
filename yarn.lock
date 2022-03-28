@@ -331,10 +331,10 @@
     is-valid-domain "^0.1.5"
     jsii-srcmak "^0.1.482"
 
-"@cdktf/provider-github@0.6.59":
-  version "0.6.59"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.6.59.tgz#edab56c4247e1ecd5cd9b2d57573dc1ce89c4dd2"
-  integrity sha512-S7E7GFLhWHgNxPJNeWOEkSczkKhHJeI69YxV1VSV00K6m/MHkb0BbGJPHpXdDhrl8xaXmKtEdFTZL4afsiQDFw==
+"@cdktf/provider-github@0.6.60":
+  version "0.6.60"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.6.60.tgz#25e616479c202075ba4a9434afea6174dd259574"
+  integrity sha512-d4eWDHGMwPMPfV6KSh07iAknG8BUuwSYq//RJOaLi6TuAf77wuGf7JNq0BmpeuCZ8S2UAD5PM2+zpovwKxZRZw==
 
 "@cspotcode/source-map-consumer@0.8.0":
   version "0.8.0"
@@ -1736,10 +1736,10 @@ console-control-strings@^1.1.0:
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-constructs@10.0.96, constructs@^10.0.25:
-  version "10.0.96"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.96.tgz#b11861dab821bfac7775cca4ec4a12a924d7a29b"
-  integrity sha512-zUOU9CHjKZ4Qb9Wdfi7/OHXnPU37PqAUDZpHJ98d/PRx2I6Yv9Aud6/hPTgAdAw2i3VUoFp8q2ugULPlr76M7A==
+constructs@10.0.97, constructs@^10.0.25:
+  version "10.0.97"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.97.tgz#9dd71e6909a9bc8040a31955b80968ddf28447f3"
+  integrity sha512-2193Y3iDLY9sYCd89eb4TfjeDN+oD5ocl5d1LRnbGwlmvMe2fWqd9i84ET6K8K/PXBPSTyRQghnpw+Smn8b9vA==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -2199,9 +2199,9 @@ duplexer3@^0.1.4:
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
 electron-to-chromium@^1.4.84:
-  version "1.4.95"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.95.tgz#49303dbe037c15e2e0cc851d71c4cb86119a9cd6"
-  integrity sha512-h2VAMV/hPtmAeiDkwA8c5sjS+cWt6GlQL4ERdrOUWu7cRIG5IRk9uwR9f0utP+hPJ9ZZsADTq9HpbuT46eBYAg==
+  version "1.4.96"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.96.tgz#a97438a01d5db1460343fea4a344960b09330990"
+  integrity sha512-DPNjvNGPabv6FcyjzLAN4C0psN/GgD9rSGvMTuv81SeXG/EX3mCz0wiw9N1tUEnfQXYCJi3H8M0oFPRziZh7rw==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -4027,9 +4027,9 @@ jsii-rosetta@^1.54.0, jsii-rosetta@^1.55.1:
     yargs "^16.2.0"
 
 jsii-srcmak@^0.1.482:
-  version "0.1.511"
-  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.511.tgz#fffc749ad8da3aa0b56307cdf2acc89beaabea43"
-  integrity sha512-THXQxtZhnYGIIFx5PFsmJRJiGJh3GLKuh4c+8dU+k3mJsuqJhOq4Eg/FMj7ZN9wlwf3LGFXcR58qyvPXe4plKQ==
+  version "0.1.512"
+  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.512.tgz#d631f5e29d94c089f7970fafa2036fe35d09c002"
+  integrity sha512-AA/WSd6ysD6xPrwLvsXOnbgwgN+TlX9ApXBNTsZohQxlKEnyyQAPt945rW9cu/cdNbpc/U/Dnig3CLqDn+PogQ==
   dependencies:
     fs-extra "^9.1.0"
     jsii "^1.55.1"
