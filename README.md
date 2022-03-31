@@ -6,7 +6,10 @@ This project has two parts:
 
 2. A central cdktf application that federates deployment secrets across all the cdktf construct projects I have.
 
-
 ## Usage
 
 Copy this project, edit the `.projenrc.js` to fit your preferences. Also, add your projects to the `projects.js` file. To bootstrap the projects Github Action run `yarn bootstrap-secrets`.
+
+## Repositories managed
+
+Take a look at the [projects.md](projects.md) file to find all projects under management.

@@ -5,6 +5,7 @@ export class CDKTFConstruct extends ConstructLibrary {
     super({
       ...options,
       prettier: true,
+      projenrcTs: true,
       autoApproveOptions: {
         allowedUsernames: ["DanielMSchmidt"],
         label: "auto-approve",

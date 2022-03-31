@@ -51,4 +51,5 @@ junit.xml
 /lib
 /dist/
 !/.eslintrc.json
+!/projects.md
 !/.github/workflows/upgrade-main.yml
