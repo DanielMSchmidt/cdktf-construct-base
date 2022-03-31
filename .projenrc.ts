@@ -1,6 +1,5 @@
-const { typescript } = require("projen");
-const { NpmAccess } = require("projen/lib/javascript");
-const packageJson = require("./package.json");
+import { typescript } from "projen";
+import { NpmAccess } from "projen/lib/javascript";
 
 const project = new typescript.TypeScriptProject({
   defaultReleaseBranch: "main",
@@ -28,6 +27,7 @@ const project = new typescript.TypeScriptProject({
   license: "MIT",
   copyrightOwner: "Daniel Schmidt",
   prettier: true,
+  projenrcTs: true,
 });
 
 project.addTask("deploy", {
