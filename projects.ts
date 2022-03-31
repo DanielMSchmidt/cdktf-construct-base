@@ -11,4 +11,5 @@ export const projects: Project[] = [
     name: "cdktf-tf-module-stack",
     shareWithUsers: cdktfTeam,
   },
+  { name: "projen-cdktf-hybrid-construct", shareWithUsers: cdktfTeam },
 ];
