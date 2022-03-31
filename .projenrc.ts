@@ -1,5 +1,6 @@
-import { typescript } from "projen";
+import { TextFile, typescript } from "projen";
 import { NpmAccess } from "projen/lib/javascript";
+import { projects } from "./projects";
 
 const project = new typescript.TypeScriptProject({
   defaultReleaseBranch: "main",
@@ -34,6 +35,19 @@ project.addTask("deploy", {
   description: "Deploys the secrets via CDKTF across all projects",
   cwd: "./infrastructure",
   exec: "cdktf apply --auto-approve --ci infrastructure",
+});
+
+new TextFile(project, "projects.md", {
+  committed: true,
+  readonly: true,
+  lines: [
+    "# Projects managed by this Repository",
+    "",
+    ...projects.map(
+      (p) => `- [${p.name}](https://github.com/DanielMSchmidt/${p.name})`
+    ),
+    "",
+  ],
 });
 
 project.synth();
