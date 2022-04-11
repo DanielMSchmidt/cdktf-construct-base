@@ -323,10 +323,10 @@
     is-valid-domain "^0.1.6"
     jsii-srcmak "^0.1.513"
 
-"@cdktf/provider-github@0.7.10":
-  version "0.7.10"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.7.10.tgz#86c9ce682ea95c7629db246d2d2754db908106e9"
-  integrity sha512-I9XgmxyqHTo73QsshMs7HCXDlTlLjjwgOXgeMsZI8JveBXE+Q/msnzcUlltHrP4/QS8bq0CJ8iYgWAq1Cq1peQ==
+"@cdktf/provider-github@0.7.11":
+  version "0.7.11"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.7.11.tgz#40da6d142c7219ab9665f85e18b9e1018ddaae3d"
+  integrity sha512-dLPC24F0e2vVy14Jfb7KLcM2jE/GWmdZ6l6Xb6DPXMlICoSkku4gZUsFPqjyPvUArc4ke/ZVEARtgIa5U2w24g==
 
 "@eslint/eslintrc@^1.2.1":
   version "1.2.1"
@@ -843,9 +843,9 @@
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
 "@types/prettier@^2.1.5":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.4.4.tgz#5d9b63132df54d8909fce1c3f8ca260fdd693e17"
-  integrity sha512-ReVR2rLTV1kvtlWFyuot+d1pkpG2Fw/XKE3PDAdj57rbM97ttSp9JZ2UsP+2EHTylra9cUf6JA7tGwW1INzUrA==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.6.0.tgz#efcbd41937f9ae7434c714ab698604822d890759"
+  integrity sha512-G/AdOadiZhnJp0jXCaBQU449W2h716OW/EoXeYkCytxKL06X1WCXB4DZpp8TpZ8eyIJVS1cw4lrlkkSYU21cDw==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
@@ -1702,10 +1702,10 @@ console-control-strings@^1.1.0:
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-constructs@10.0.109, constructs@^10.0.25:
-  version "10.0.109"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.109.tgz#8f665a231f23546a4cd66e707f5e7d0e7943387e"
-  integrity sha512-jnalQa5GGD8G34rfOxYMr7B7rY4Q6W7UGwUdxyMM4bKwZEEDTh0TL8eFPUA/G6O3oL3rBm16lP/Ijm3Nn06uxg==
+constructs@10.0.110, constructs@^10.0.25:
+  version "10.0.110"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.110.tgz#f5563efca14648ddb7c633dc1b4369ac30f743fb"
+  integrity sha512-Ojh53qbHi5XxkOFd7acUQebVzEn00KXF93YRwd5vii7tiVrkjgufWPl5NgdhNmvmC/lcQ1w8ke77PN37gQdgoQ==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -3996,9 +3996,9 @@ jsii-rosetta@^1.55.1, jsii-rosetta@^1.56.0:
     yargs "^16.2.0"
 
 jsii-srcmak@^0.1.513:
-  version "0.1.525"
-  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.525.tgz#93f89509944a5d1329eccc021fc5b08c73c2d8e7"
-  integrity sha512-ZvZ12ar9xPTMq1/QzhczmYV4aYaGr8/MGAfFmMujuzalcDmgbVazxw9pqU/M1aRkC7o4V48edOQBQRyml5R8Pg==
+  version "0.1.526"
+  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.526.tgz#da8eef1952b2f5892c631924f550b07b8f56c973"
+  integrity sha512-RQ3Cd0WPchFlnGNHhU1oRLRfUfL3bESm/7UBXmrHCvSxwvXwIuGB8YDCcrtHluf3TGASFEolfdl3UW2aA1boMw==
   dependencies:
     fs-extra "^9.1.0"
     jsii "^1.56.0"
