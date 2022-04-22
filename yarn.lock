@@ -323,10 +323,10 @@
     is-valid-domain "^0.1.6"
     jsii-srcmak "^0.1.520"
 
-"@cdktf/provider-github@0.7.23":
-  version "0.7.23"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.7.23.tgz#76bf6d792b306846464e2e5cd1704b83fa3f20f9"
-  integrity sha512-Vg80l1OmD1kZ46PyvyIQuq+0ch+976T3LJvE4oa2YvmiiKBg346zEFAEnCZpd1gGmeVfUvIvylWmPPPl5HLO7A==
+"@cdktf/provider-github@0.7.24":
+  version "0.7.24"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.7.24.tgz#de0ab279acaed6039d38553970b927249f7eabae"
+  integrity sha512-oNrlA0pkeUYiH2uwvR4/jZRO+R3Nd0USwMjpFgdUHFVtSVYMvwyoTv2UkT7nCC40+AzuyiTT0GJwPBrt7TUPng==
 
 "@eslint/eslintrc@^1.2.1":
   version "1.2.1"
@@ -1379,9 +1379,9 @@ builtins@^5.0.0:
     semver "^7.0.0"
 
 cacache@^16.0.0, cacache@^16.0.2:
-  version "16.0.5"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.5.tgz#149f02b276ee4773896d147f6b1559680c62cba2"
-  integrity sha512-8s/08Kgu5sk9JcmOrekdUTM7cPPewz2FIQWVQOGOCdWPMRxBUD10WXApQD39Qvg1y5AKXcjo+pnOHkeveEFHCA==
+  version "16.0.6"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.6.tgz#3e4b1e8196673486e725a66eaa747a91da753963"
+  integrity sha512-9a/MLxGaw3LEGes0HaPez2RgZWDV6X0jrgChsuxfEh8xoDoYGxaGrkMe7Dlyjrb655tA/b8fX0qlUg6Ii5MBvw==
   dependencies:
     "@npmcli/fs" "^2.1.0"
     "@npmcli/move-file" "^2.0.0"
@@ -1711,10 +1711,10 @@ console-control-strings@^1.1.0:
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-constructs@10.0.120, constructs@^10.0.25:
-  version "10.0.120"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.120.tgz#3c9e7574bfce872608b803a1b608e2c010f5a129"
-  integrity sha512-dsWux+1mygizUSKu43FHMGdh/m+KX4vt7sXKlb5VwRTkuebEoPu7QGIeV866PfnCgtCZmKbX77hyfMkRqh/0Gg==
+constructs@10.0.121, constructs@^10.0.25:
+  version "10.0.121"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.121.tgz#e5750b827c93f943a434caa91bcc4ec915a028aa"
+  integrity sha512-lGHBmgMV5ErHKMGKIWw5vMMVnRe4RUoGl8csrKIBXDXnfWDsP8Kz02XSYfxqRGCiO9NQrEnUBxjS+e/LV0wqfA==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -2172,9 +2172,9 @@ duplexer3@^0.1.4:
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
 electron-to-chromium@^1.4.84:
-  version "1.4.115"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.115.tgz#62d68576385f17e9b268b04e98cc132ed04c6671"
-  integrity sha512-yy1W7cTcreskCWSRTtvp8CNLEci3uYBn5s1U4IytDz7v485iLVPh4QwFuSCavsFbxRLVvwnHNXEFIDShrk/UnQ==
+  version "1.4.117"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.117.tgz#829d747deb9faa653cab72764a891ef523ba7413"
+  integrity sha512-ypZHxY+Sf/PXu7LVN+xoeanyisnJeSOy8Ki439L/oLueZb4c72FI45zXcK3gPpmTwyufh9m6NnbMLXnJh/0Fxg==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -4037,9 +4037,9 @@ jsii-rosetta@^1.55.1, jsii-rosetta@^1.57.0:
     yargs "^16.2.0"
 
 jsii-srcmak@^0.1.520:
-  version "0.1.536"
-  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.536.tgz#d3fe426a3483e95e4729d2a86e1a51eb07d893c0"
-  integrity sha512-tzjbiuywyJNmMgreiCp9L/fdzYKL3JD4cfjbysdTC38eU3i4b3ThQjy1j7vgjGGuFlY/rSGeq2lvVXQnSHuCnQ==
+  version "0.1.537"
+  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.537.tgz#b9b8adf03560b8a9aa22c98930414643e9ffb824"
+  integrity sha512-iG5sezPbR1s8S7PKpYh52WCdrkjS+sui/WBM0amVr5BuAJfVtdnKt9b6qWW/lFNNDSzkfZkJNxf8joHybWWNlQ==
   dependencies:
     fs-extra "^9.1.0"
     jsii "^1.57.0"
@@ -4759,9 +4759,9 @@ npm-package-arg@^9.0.0, npm-package-arg@^9.0.1:
     validate-npm-package-name "^4.0.0"
 
 npm-packlist@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-5.0.1.tgz#029bf0fb465c3fde73908a833def48c212fb0547"
-  integrity sha512-4nBmzp7u9kqQSqqWxXId+gwFCqXQ5Vt+3GtmjPb2m9p7BCWHH/t/ZOw2Rkgp8jjFHiY72YF2zsvJbtmddgmBWA==
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-5.0.2.tgz#a5eb2503faec92ad6853a2bbb2231dced6cfc549"
+  integrity sha512-jLhcNisUgpz6v2KC75qSeEYAM8UBMYjQ2OhlCOJjB4Ovu7XXnD25UqZ6hOQNeGShL/2ju3LL2E/zBbsuzkIQ8w==
   dependencies:
     glob "^8.0.1"
     ignore-walk "^5.0.1"
