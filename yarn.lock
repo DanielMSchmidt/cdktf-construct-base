@@ -323,10 +323,10 @@
     is-valid-domain "^0.1.6"
     jsii-srcmak "^0.1.520"
 
-"@cdktf/provider-github@0.7.25":
-  version "0.7.25"
-  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.7.25.tgz#4c7894c0a6e739facb78ffe64b6704cfbff6bc51"
-  integrity sha512-dnQyKANZNSBMsCfRyQbH3+xjQvmdSUOggSI+RmqInRJOwsxr4EFD+xu4b+hUxd4muU03sJZJQoA76cFSpaAFsA==
+"@cdktf/provider-github@0.7.26":
+  version "0.7.26"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-0.7.26.tgz#0ac8a0cddec72c96370c42f50530815d74c5d8ac"
+  integrity sha512-RMAmhx855CeTB/v9OBrGoQMc9aP2BEt0m27H+t/+jKsQlgDX7y+zI2KkPVQhk+YgIUC+lE+n+tSy5pfpcZ88UQ==
 
 "@eslint/eslintrc@^1.2.2":
   version "1.2.2"
@@ -1711,10 +1711,10 @@ console-control-strings@^1.1.0:
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-constructs@10.0.122, constructs@^10.0.25:
-  version "10.0.122"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.122.tgz#54f47005f89d8544fc2db4e163ac637198fcb128"
-  integrity sha512-dssxs7zgUzyxtp9hbVHvZM9invI4HX9n8crL/fuA+0hI4UA/qHqAMWSU8xBZJJ6pxsoJrB3WLejkq9pK/FlRVg==
+constructs@10.0.123, constructs@^10.0.25:
+  version "10.0.123"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.123.tgz#ff75ee277fdf445d8a7c35f4cc4c5d4e3022106b"
+  integrity sha512-PPw30hgbBLN4VAEqVjni4EtKziMT4/b+5WivsgXZi+U3U1jef/1oYLxV/LC3KDofrgb+1qDbg609ff4L2kSQ1w==
 
 conventional-changelog-angular@^5.0.12:
   version "5.0.13"
@@ -4037,9 +4037,9 @@ jsii-rosetta@^1.55.1, jsii-rosetta@^1.57.0:
     yargs "^16.2.0"
 
 jsii-srcmak@^0.1.520:
-  version "0.1.538"
-  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.538.tgz#bb2d029c720014ef83deb84c049dfdb2345adc23"
-  integrity sha512-+v+xzSBegd4bLkt0Rbn3Dg3Jr8DzQAKKkaJTTFOd0M5fC8MZzpP9zd8wMUPkXa7m8F8WZspdd7ED2gNOsHOhlA==
+  version "0.1.539"
+  resolved "https://registry.yarnpkg.com/jsii-srcmak/-/jsii-srcmak-0.1.539.tgz#6bf874b912df4fd2a0c7c29eb92219ecbe506f27"
+  integrity sha512-KJh8sGHeafh/RHEClNFNs+TcJnOwY0q5azuSMygIh/wAOYq12iWEtzzFGHNvfDzoEyUCXwO7ocy6DpbKBySixQ==
   dependencies:
     fs-extra "^9.1.0"
     jsii "^1.57.0"
