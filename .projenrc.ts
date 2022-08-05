@@ -20,7 +20,6 @@ const project = new typescript.TypeScriptProject({
   releaseToNpm: true,
   npmAccess: NpmAccess.PUBLIC,
   autoApproveUpgrades: true,
-  autoApproveProjenUpgrades: true,
   autoApproveOptions: {
     label: "auto-approve",
     allowedUsernames: ["DanielMSchmidt", "github-bot"],
@@ -36,6 +35,8 @@ project.addTask("deploy", {
   cwd: "./infrastructure",
   exec: "cdktf apply --auto-approve --ci infrastructure",
 });
+
+project.addDevDeps("ts-node@10.9.1");
 
 new TextFile(project, "projects.md", {
   committed: true,

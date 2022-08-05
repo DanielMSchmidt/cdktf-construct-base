@@ -10,7 +10,6 @@ export class CDKTFConstruct extends ConstructLibrary {
         allowedUsernames: ["DanielMSchmidt"],
         label: "auto-approve",
       },
-      autoApproveProjenUpgrades: true,
       autoApproveUpgrades: true,
       publishToPypi: {
         distName: options.name,
@@ -23,6 +22,8 @@ export class CDKTFConstruct extends ConstructLibrary {
 
     this.addPeerDeps(`constructs@${constructVersion}`, `cdktf@${cdktfVersion}`);
     this.addKeywords("cdktf");
+
+    this.addDevDeps("ts-node@10.9.1");
 
     // ignore dist in tests
     this.jest?.addIgnorePattern("dist");
