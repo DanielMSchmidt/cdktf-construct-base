@@ -1,6 +1,6 @@
 export type Project = { name: string; shareWithUsers?: string[] };
 
-const cdktfTeam = ["ansgarm", "skorfmann", "xiehan", "schersh"];
+const cdktfTeam = ["ansgarm", "xiehan"];
 export const projects: Project[] = [
   { name: "cdktf-construct-base" },
   { name: "cdktf-local-exec" },
