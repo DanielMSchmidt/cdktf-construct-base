@@ -30,7 +30,7 @@
     "@typescript-eslint/parser": "^5",
     "cdktf": "0.14.3",
     "cdktf-cli": "0.14.3",
-    "constructs": "10.1.182",
+    "constructs": "10.1.183",
     "eslint": "^8",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-node": "^0.3.6",
