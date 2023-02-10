@@ -28,9 +28,9 @@
     "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "cdktf": "0.15.3",
-    "cdktf-cli": "0.15.3",
-    "constructs": "10.1.244",
+    "cdktf": "0.15.4",
+    "cdktf-cli": "0.15.4",
+    "constructs": "10.1.245",
     "eslint": "^8",
     "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-node": "^0.3.7",
@@ -41,14 +41,14 @@
     "jest-junit": "^13",
     "npm-check-updates": "^16",
     "prettier": "^2.8.4",
-    "projen": "^0.67.42",
+    "projen": "^0.67.45",
     "standard-version": "^9",
     "ts-jest": "^27.1.5",
     "ts-node": "10.9.1",
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "projen": "^0.67.42"
+    "projen": "^0.67.45"
   },
   "main": "lib/index.js",
   "license": "MIT",
